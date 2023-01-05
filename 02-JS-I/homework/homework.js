@@ -198,14 +198,29 @@ function deEuroAdolar(euro){
 }
 
 
-function esVocal(letra){
+function esVocal(letra)
+
+  es_vocal=input("introduce una letra por favor: ")
+
+  def es_vocal ():
+
+    if es_vocal == "a" or es_vocal == "e" or es_vocal == "i" or es_vocal == "o" or es_vocal == "u":
+
+    print(True)
+
+    elif es_vocal == "A" or es_vocal == "E" or es_vocal == "I" or es_vocal == "O" or es_vocal == "U":
+        print(True)
+    else:
+        print(False)
+
+es_vocal()
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   
-}
+
 
 
 
